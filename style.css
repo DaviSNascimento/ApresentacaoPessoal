@@ -1,0 +1,306 @@
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(65, 132, 255);
+}
+a:hover{
+    color: rgb(120, 52, 184);
+}
+
+.header{
+    background: rgb(70, 70, 70);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    width: 500px
+}
+.links li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 10px;
+
+
+}
+.links li a{
+
+    padding: 10px;
+
+}
+
+
+.titulo{
+
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 30pt;
+
+    padding: 10px;
+    text-align: justify;
+
+}
+.titulo img{
+    display: block;
+
+    width: 90px;
+    height:90px; 
+    border-radius: 50px;
+    margin-right: 50px;
+    margin-left: 10px;
+
+}
+.container{
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+align-content: flex-start;
+flex-direction: row;
+flex-wrap: wrap;
+
+margin: 20px;
+
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: 50px;
+    padding: 10px;
+
+
+
+}
+.nome{
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: solid;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+#nome1{
+    font-weight: 100;
+    font-size: 20pt;
+}
+#resumo{
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.mainProjetosPessoais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.imgBox ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    margin-top: 100px;
+
+}
+
+.imgBox ul li{
+    padding: 30px;
+    border-bottom: solid 4px rgba(0, 0, 0, 0.486);
+}
+
+
+.flexLink{
+    width: 72%; 
+}
+.flexLink ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+
+}
+.containerTexto{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+align-content: center;
+width: 1000px;
+
+}
+.containerTexto p {
+    text-align: start;
+}
+.listaHobbie {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+
+    border-bottom: solid 3px rgba(0, 0, 0, 0.356);
+    margin: 35px;
+    margin-top: 100px;
+
+}
+.listaHobbieParagrafo{
+
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    height: fit-content;
+
+    padding: 20px;
+
+    margin: 20px;
+}
+.listaHobbieParagrafo ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+
+}
+.listaHobbieParagrafo li{
+    display: block;
+    text-align: center;
+    width: 400px;
+    height: 120px;
+
+}
+.imgHobbie img{
+    
+    width: 250px;
+    height: 300px;
+    border-radius: 10%;
+}
+.imgHobbie ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+    margin: 20px;
+    padding-left: 30px;
+
+}
+.containerContato{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+
+
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+
+    margin: 100px;
+
+}
+.contato h2{
+    display: block;
+    padding: 5px;
+    font-style: italic;
+    font-size: 40pt;
+    margin-bottom: 100px;
+}
+.contato p{
+    display: block;
+    width: 900px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30pt;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.contato a{
+    color: rgb(0, 89, 255);
+    padding: 5px;
+}
+.contato a:hover{
+    color: rgb(125, 27, 216);
+}
+
+.button{
+   
+    display: inline-block;
+
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: none;
+    background-color: rgb(44, 44, 44);
+    border-radius: 20px;
+    padding: 20px 20px;
+    width: 400px;
+    margin: 50px;
+}
+.button:hover{
+    background-color: rgb(197, 197, 197);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+.button a{
+    font-size: 20pt;
+    padding: 20px 40px;
+    width: 400px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+}
+.button a:hover{
+    color: black;
+}
+
+
+
